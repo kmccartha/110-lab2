@@ -1,7 +1,9 @@
+import { printSnacks } from "./snacks.js";
 import { printMusic } from "./music";
 
 function main(): void {
-  printMusic();
+    printSnacks();
+    printMusic();
 }
 
 main();
