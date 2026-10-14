@@ -3,9 +3,7 @@ const music: string[] = [
 ];
 
 export function printMusic(): void {
-    for (type of music) {
-        console.log(type)
-    }
+        console.log(music)
 }
 
 printMusic();
