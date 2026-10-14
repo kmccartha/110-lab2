@@ -1,9 +1,12 @@
-const music: string[] = [
-    "Jazz", "Rock", "Classical", "Trap",
+export const music: string[] = [
+    "Jazz",
+    "Rock",
+    "Classical",
+    "Trap",
 ];
 
 export function printMusic(): void {
-        console.log(music)
+    console.log(music);
 }
 
 printMusic();
